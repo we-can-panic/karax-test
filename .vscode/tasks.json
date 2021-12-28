@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "command": "nim",
+    // 引数（現在開いているファイル -> ${file}
+    "args": [
+        "c",
+        "-r",
+        "${file}"
+    ],
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+    "type": "shell"
+}
