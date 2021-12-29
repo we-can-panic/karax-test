@@ -3,8 +3,7 @@
     "command": "nim",
     // 引数（現在開いているファイル -> ${file}
     "args": [
-        "c",
-        "-r",
+        "js",
         "${file}"
     ],
     "options": {
